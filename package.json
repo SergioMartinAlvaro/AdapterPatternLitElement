@@ -1,0 +1,24 @@
+{
+  "name": "ProExample",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "es-dev-server --app-index index.html --node-resolve --watch --open",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^2.0.0-rc.2",
+    "lit-element": "^2.5.1",
+    "snowpack": "^3.8.3"
+  },
+  "devDependencies": {
+    "es-dev-server": "^2.1.0"
+  }
+}
